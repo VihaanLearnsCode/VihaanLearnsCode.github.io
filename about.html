@@ -23,16 +23,26 @@
         }
         .container {
             text-align: center;
-            background: #2a7d67;
+            background: #115c48;
+            width: 600px; /* Set the width of the container */
+            height: 500px; /* Set the height of the container */
             padding: 50px;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+            display: flex;
+            flex-direction: column;
+            height: 50vh;
+            justify-content: space-between;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
         }
         
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            color: #89b5e7;
+            color:  #b6d1f0;
             transition: color 1.2s;
         }
 
@@ -43,7 +53,7 @@
         p {
             font-size: 1.2em;
             line-height: 1.5;
-            color : #ecf2f0;
+            color :  #b6d1f0;
             transition: color 1.2s;
         }
 
@@ -69,6 +79,7 @@
 </head>
 <body>
     <div class="container">
+        <h1>ABOUT</h1>
         <p>This is a place to document the work that I do!</p>
         <p><a href="index.html">HOME</a></p>
     </div>
