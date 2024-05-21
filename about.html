@@ -12,7 +12,6 @@
             background-repeat: no-repeat; /* Do not repeat the image */
 
             font-family: 'Arial', sans-serif;
-            background-color: #3a6285;
             margin: 0;
             padding: 0;
             display: flex;
@@ -23,11 +22,11 @@
         }
         .container {
             text-align: center;
-            background: #115c48;
+            background: #ffffff;
             width: 600px; /* Set the width of the container */
             height: 500px; /* Set the height of the container */
             padding: 50px;
-            border-radius: 10px;
+            border-radius: 50px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             display: flex;
@@ -37,29 +36,35 @@
             align-items: center;
             text-align: center;
             padding: 20px;
+
+            transition: background 2s;
+        }
+
+        .container:hover {
+            background: hsl(195, 64%, 71%);
         }
         
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            color:  #b6d1f0;
+            color: #103156;
             transition: color 1.2s;
         }
 
-        h1:hover {
+        /* h1:hover {
             color: #17cec2;
-        }
+        } */
 
         p {
             font-size: 1.2em;
             line-height: 1.5;
-            color :  #b6d1f0;
+            color: #103156;
             transition: color 1.2s;
         }
 
-        p:hover {
+        /* p:hover {
             color: #26f0ba
-        }
+        } */
 
         a {
             display: inline-block;
@@ -67,15 +72,26 @@
             padding: 10px 20px;
             font-size: 1em;
             color: #ffffff;
-            background-color: #84abd7;
-            border-radius: 5px;
+            background-color: #82b0e3;
+            border-radius: 25px;
             text-decoration: none;
             transition: background-color 1.2s;
         }
         a:hover {
             background-color: #26f0ba;
         }
-        </style>
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+            color: #4a90e2;
+            transition: color 1.2s;
+        }
+
+        h2:hover {
+            color: #e94a4a;
+        }
+    </style>
 </head>
 <body>
     <div class="container">

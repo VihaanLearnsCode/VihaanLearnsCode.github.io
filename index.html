@@ -22,11 +22,11 @@
         }
         .container {
             text-align: center;
-            background: #115c48;
+            background: #ffffff;
             width: 600px; /* Set the width of the container */
             height: 500px; /* Set the height of the container */
             padding: 50px;
-            border-radius: 10px;
+            border-radius: 50px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
             display: flex;
@@ -36,29 +36,35 @@
             align-items: center;
             text-align: center;
             padding: 20px;
+
+            transition: background 2s;
+        }
+
+        .container:hover {
+            background: hsl(195, 64%, 71%);
         }
         
         h1 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            color: #b6d1f0;
+            color: #103156;
             transition: color 1.2s;
         }
 
-        h1:hover {
+        /* h1:hover {
             color: #17cec2;
-        }
+        } */
 
         p {
             font-size: 1.2em;
             line-height: 1.5;
-            color : #a8dbef;
+            color: #103156;
             transition: color 1.2s;
         }
 
-        p:hover {
+        /* p:hover {
             color: #26f0ba
-        }
+        } */
 
         a {
             display: inline-block;
@@ -67,7 +73,7 @@
             font-size: 1em;
             color: #ffffff;
             background-color: #82b0e3;
-            border-radius: 5px;
+            border-radius: 25px;
             text-decoration: none;
             transition: background-color 1.2s;
         }
@@ -92,7 +98,9 @@
         <h1>Welcome to Vihaan's website!</h1>
         <p>Still under construction!</p>
         <p><a href="about.html">ABOUT</a></p>
+        <p><a href="datavis.html">DATA VISUALIZATION</a></p>
     </div>
+    
 </body>
 </html>
 
